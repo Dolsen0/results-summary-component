@@ -72,10 +72,15 @@ body {
   
 }
 
+#summaryData{
+  width: 100%;
+}
+
 .summary-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: auto;
 }
 
 .category {
@@ -86,27 +91,35 @@ body {
 .summaryScore {
   font-size: 1em;
   color:black;
+
 }
 
 .Reaction{
   color: hsl(0, 100%, 68%);
   background-color: hsla(0, 100%, 68%, .1);
-
+  border-radius: 0.625em;
+  height: 3em;
 }
 
 .Memory{
   color: hsl(39, 100%, 56%);
   background-color: hsla(39, 100%, 56%, .1);
+  border-radius: 0.625em;
+  height: 3em;
 }
 
 .Verbal{
   color: sla(166, 100%, 37%,);
   background-color: hsla(166, 100%, 37%, .1);
+  border-radius: 0.625em;
+  height: 3em;
 }
 
 .Visual{
   color:hsl(234, 85%, 45%);
   background-color: hsla(234, 85%, 45%, .1);
+  border-radius: 0.625em;
+  height: 3em;
 }
 
 
@@ -119,7 +132,10 @@ body {
   font-size: 1.25em; /* 20px */
   margin-top: 1.25em; /* 20px */
   cursor: pointer;
+  border-radius: 0.625em; /* 10px */
+  width: 100%;
 }
+
 
 .attribution {
   position: fixed;
