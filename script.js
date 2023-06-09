@@ -5,7 +5,7 @@ fetch('data.json') // Assuming the JSON file is named 'data.json' and located in
     let summaryHTML = '';
 
     data.forEach(item => {
-      summaryHTML += `<p> <img src="${item.icon}" alt="${item.category} icon"> ${item.category} ${item.score} / 100</p>`;
+      summaryHTML += `<p class="${item.category}"><span class="score"><img src="${item.icon}" alt="${item.category} icon">${item.category}</span> <span class="summaryScore">${item.score} / 100</span></p>`;
     });
 
     summaryContainer.innerHTML = summaryHTML;
