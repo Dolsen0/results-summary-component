@@ -26,7 +26,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border-radius: 0.625em; /* 10px */
+  border-radius: 1.1em;
   width: 100%;
   padding: 1.25em; /* 20px */
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
@@ -36,14 +36,15 @@ body {
 }
 
 .circle {
-  background-color: hsla(256, 72%, 46%, 1);
   border-radius: 50%;
-  width: 6.25em; /* 100px */
-  height: 6.25em; /* 100px */
+  width: 9em; 
+  height: 9em; 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+
 }
 
 .results_display {
@@ -64,7 +65,7 @@ body {
   align-items: center;
   flex-direction: column;
   background-color: white;
-  border-radius: 0.625em; /* 10px */
+  border-radius: 1.1em;
   width: 100%;
   padding: 1.25em; /* 20px */
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
@@ -97,7 +98,7 @@ body {
 .Reaction{
   color: hsl(0, 100%, 68%);
   background-color: hsla(0, 100%, 68%, .1);
-  border-radius: 0.625em;
+  border-radius: 0.825em;
   height: 3em;
 }
 
@@ -125,14 +126,14 @@ body {
 
 
 .buttonContinue{
-  background-color: hsl(252, 94%, 67%);
+  background-color:hsla(256, 72%, 46%, 1);
   color: white;
   border: none;
   padding: 0.625em; /* 10px */
   font-size: 1.25em; /* 20px */
   margin-top: 1.25em; /* 20px */
   cursor: pointer;
-  border-radius: 0.625em; /* 10px */
+  border-radius: 1.1em;
   width: 100%;
 }
 
